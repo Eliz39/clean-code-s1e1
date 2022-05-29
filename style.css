@@ -106,7 +106,7 @@ input,button{
     vertical-align: middle;
 } */
 
-li > input[type="checkbox"] {
+.input-checkbox {
     margin: 0 10px;
 }
 li > label {
