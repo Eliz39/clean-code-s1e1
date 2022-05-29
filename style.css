@@ -2,7 +2,7 @@
 .body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .top-section {
   width: 500px;
@@ -12,9 +12,6 @@
 }
 .top-section__img {
   width: 100%;
-}
-.top-section .details-link {
-  font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
@@ -30,7 +27,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -51,7 +48,7 @@ input,button{
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   cursor: pointer;
 }
 .button:hover {
@@ -76,7 +73,7 @@ input,button{
   border: 1px solid #dDd;
   background: #FFF;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #888;
 }
 .input-task:focus {
