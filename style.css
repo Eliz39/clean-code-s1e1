@@ -128,21 +128,21 @@ input,button{
 }
 
 /* Completed */
-ul#completed-tasks label {
+.completed-tasks.label-in-task-list {
     text-decoration: line-through
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task-list-item .input-task {
     display:none
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode .input-task {
     display:inline-block;
     width:224px
 }
 
-ul li.edit-mode label {
+.edit-mode .label-in-task-list {
     display:none;
 }
