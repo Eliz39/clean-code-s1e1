@@ -57,8 +57,7 @@ input,button{
     color: #3a3A3a;
 }
 /* Heading */
-.title,
-label[for="new-task"] {
+.title, .new-task-label {
     color: #333;
     font-weight: 700;
     font-size: 15px;
