@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.top-section img {
+.top-section__img {
   width: 100%;
 }
 .top-section .details-link {
