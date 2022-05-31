@@ -4,18 +4,18 @@
   color: #333;
   font-family: 'Lato', sans-serif;
 }
-.top-section {
+.top-block {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.top-section__img {
+.top-block__img {
   width: 100%;
 }
 
 @media (max-width: 768px) {
-  .top-section {
+  .top-block {
     text-align: center;
   }
 }
